@@ -29,7 +29,7 @@
 ### **6강: 라우팅, 라이브러리, 외부 API, 배포**
 
 - 6.1 React Router 개요 및 설치
-- 6.2 Route, Link, useNavigate 활용
+- 6.2 Outlet, Link, useNavigate 활용
 - 6.3 간단한 라우팅 실습 (페이지 분리)
 - 6.4 axios로 외부 API 연동
 - 6.5 마크다운(raw GitHub URL) API 호출 및 파싱 (axios or fetch)

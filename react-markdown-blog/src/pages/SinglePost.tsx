@@ -1,5 +1,7 @@
 import { useParams } from 'react-router';
 import { usePostData } from "../hooks/usePostData";
+import ReactMarkdown from 'react-markdown';
+import 'github-markdown-css/github-markdown-light.css';
 
 export default function SinglePostPage( ) {
   const { postId } = useParams();
@@ -13,8 +15,10 @@ export default function SinglePostPage( ) {
   return (
     <div>
       <p>포스트: {postId}</p>
-      <h2>{data?.title}</h2>
-      <p>{data?.body}</p>
+      <div className="markdown-body">
+        {/* ReactMarkdown 컴포넌트로 마크다운 텍스트 렌더링 */}
+        <ReactMarkdown>{data}</ReactMarkdown>
+      </div>
     </div>
   )
 

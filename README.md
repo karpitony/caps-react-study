@@ -34,5 +34,4 @@
 - 6.4 axios로 외부 API 연동
 - 6.5 마크다운(raw GitHub URL) API 호출 및 파싱 (axios or fetch)
 - 6.6 마크다운 렌더링 라이브러리 소개 (ex: `react-markdown`)
-- 6.5 Vercel을 통한 간단 배포
-- 6.6 배포 후 유지보수 팁
+- 6.7 Vercel을 통한 간단 배포
